@@ -1,4 +1,33 @@
+/* CAMBIOS A TODA LA PAGINA */
+
 *{
     margin: 0;
     padding: 0;
 }
+
+/* FIN CAMBIOS A TODA LA PAGINA */
+
+/* MENU DE NAVEGACION */
+
+nav ul{
+    list-style-type: none; /*quita los puntos/numeros de los elementos de las listas*/
+    overflow: auto; /* un desplazamiento interno cuando su contenido exceda los límites*/
+    z-index: 1; /*determina qué elementos se muestran encima de otros en el eje z*/
+    background-color: green; /*color de fondo verde*/
+    position: fixed; /*deja fijo en la pagina*/
+    width: 100%; /*ancho*/
+}nav li{
+    float: left; /*posiciona los elementos a lo largo*/
+}nav li a{
+    color: white; /*color de texto de los elementos*/
+    text-decoration: none; /*quita el subrayado del texto*/
+    padding: 15px; /*cantidad de espacio entre el borde de la pagina y el elemento*/
+    display: inline-block; /*definir bloque en linea para los elementos y tener control sobre su tamaño y posición*/
+    /* text-align: center; */
+}
+nav li a:hover{
+    color: red;
+    background-color: white;
+}
+
+/*FIN MENU DE NAVEGACION */
